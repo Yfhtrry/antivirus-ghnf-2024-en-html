@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.pag{
+   background-color: #00ABFF; 
+}
+.pag a{
+ text-decoration: none;   
+ background-color: #0098FF;
+}
+.problema{
+   background-color: #DEB2FF;
+ display: flex;
+ flex-direction: column;
+ border-radius: 10px;
+ box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+} 
+h1 p h2 h3 h4 h5 h6 div{
+ color: #ffffff;   
+}
+.hover_opacity01, .hover_opacity02, .hover_opacity03 {
+
+	width:100%;
+
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	display:block;
+}
+.color_flat {
+	background-color:#fff;
+	color: #666;
+}
+.color_ex,.color_pro,.color_debut,.color_action,.color_coordinate,.color_modeler,.color_material,.color_howto,.color_buy,.color_plugin,.color_works,.color_updater,.color_softinfo,.color_news,.color_fanzine,.color_syutsuryoku,.color_kindle,.color_kindle_bg,.color_epub,.color_epub_bg,.color_print,.color_cloud,.color_pixiv,.color_pixiv_bg,.color_share,.color_webtoon_bg {
+	background-image:url(../img/start/bt_type01_gradation.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.color_common {
+	background-color:#ddd;
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+	opacity:0.3;
+}
+.color_common02 {
+	background-color:transparent;
+	width:100%;
+	height:100%;
+	position:absolute;
+	filter: alpha(opacity=5);
+	-moz-opacity:0.05;
+	opacity:0.05;
+}
+.color_common03 {
+	background-color:#397A91;
+}
+
+.color_disable {
+	background-color:#777;
+}
+.color_home {
+	background-color:#313131;
+}
+.color_ex {
+	background-color:#508EBC !important;
+}
+.color_ex .color_ex {
+	background-color:#549CD1 !important;
+}
+.color_pro {
+	background-color:#5DA0A0 !important;
+}
+.color_pro .color_pro {
+	background-color:#65B1B3 !important;
+}
+.color_debut {
+	background-color:#AAB25D !important;
+}
+.color_action {
+	background-color:#917BB3 !important;
+}
+.color_coordinate {
+	background-color:#C46275 !important;
+}
+.color_modeler {
+	background-color:#B26494 !important;
+}
+
+.color_material {
+	background-color:#5E9C7E !important;
+}
+.color_howto {
+	background-color:#A1808B !important;
+}
+.color_plugin {
+	background-color:#a2d365 !important;
+}
+.color_buy {
+	background-color:#758EAD !important;
+}
+.color_works {
+	background-color:#B29B84 !important;
+}
+.color_updater {
+	background-color:#ED81A9 !important;
+}
+.color_softinfo, .color_buy, .color_plugin {/*買う＆プラグイン一覧をソフトウェア一覧と同じに*/
+	background-color:#9FA399 !important;
+}
+.color_web {
+	background-color:#6CF !important;
+}
+.color_fanzine {
+	background-color:#549CD1 !important;
+}
+.color_kindle {
+	background-color:#ff9900 !important;
+}
+.color_kindle_bg {
+	/*background-color:#63666a !important;*//*Amazon gray*/
+	background-color:#8EB4E3 !important;
+}
+.color_syutsuryoku {
+	background-color:#3C6 !important;
+}
+.color_epub {
+	background-color:#74B1C5 !important;
+}
+.color_epub_bg {
+	background-color:#74B1C5 !important;
+}
+.color_print {
+	background-color:#a27430 !important;
+}
+.color_cloud {
+	background-color:#3ca0ff !important;
+}
+.color_pixiv {
+	background-color:#58a0f0 !important;
+}
+.color_pixiv_bg {
+	background-color:#208dec !important;
+}
+.color_share {
+	background-color:#8c8c8c !important;
+}
+.color_webtoon_bg {
+	background-color:#323232 !important;
+}
+.color_webtoon1 {
+	background-color:#00dc64 !important;
+}
+.color_webtoon2 {
+	background-color:#8071f3 !important;
+}
